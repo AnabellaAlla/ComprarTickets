@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <div>
+
+                <a class="navbar-brand " href="#" style="color: white ; text-align:start ;">Conf Bs As</a>
+            </div>
+            <ul class="nav justify-content-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item1">
+                            <a class="nav-link disabled" style="color: rgba(255, 255, 255, 0.647);">La
+                                conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: rgba(255, 255, 255, 0.647);">Los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" style="color: rgba(255, 255, 255, 0.647);"> El lugar y la
+                                fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current=" page" href="#" style="color: white;"">Conviertete en orador</a>
+              </li>
+              <li class=" nav-item5">
+                                <a class="nav-link disabled" style="color: rgb(20, 200, 20);">Comprar tickets</a>
+                        </li>
+                    </ul>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div>
+
+        
+
+        <div class="container">
+
+            <div class="row " style="margin-left: 13%; margin-right: 13%; margin-top: 30px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="border border-primary border-2">
+                            <h3 class="text-center"><br>Estudiante</h3>
+                            <p class="text-muted text-center">Tienen un descuento</p>
+                            <h5 class="text-center">80%</h5>
+                            <p class="text-muted text-center">* presentar documentación</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+
+                        <div class="border border-success border-2">
+                            <h3 class="text-center"><br>Trainee</h3>
+                            <p class="text-muted text-center">Tienen un descuento</p>
+                            <h5 class="text-center">50%</h5>
+                            <p class="text-muted text-center">* presentar documentación</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+
+                        <div class="border border-warning border-2">
+                            <h3 class="text-center"><br>Junior</h3>
+                            <p class="text-muted text-center">Tienen un descuento</p>
+                            <h5 class="text-center">15%</h5>
+                            <p class="text-muted text-center">* presentar documentación</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center; ">VENTA</p>
+        <p class="h2" id="ValorTicket" style="text-align: center; font-size: 30px;">VALOR DE TICKET $200</p>
+
+        <div class="completar" style="text-align: center;">
+
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label"></label>
+                    <input type="text" class="form-control" placeholder="Nombre" id="validationCustom01" required>
+                    <div class="valid-feedback">
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom02" class="form-label"></label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required>
+                    <div class="valid-feedback">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <label for="validationCustomUsername" class="form-label"></label>
+                    <div class="input-group has-validation">
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" placeholder="Correo" required>
+                        <div class="invalid-feedback">
+                            Ingrese un correo válido.
+                        </div>
+                    </div>
+                </div>
+
+<p></p>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <label for="validationCustom05" class="form-label">Cantidad</label>
+                            <input type="text" class="form-control" id="cantidad" required placeholder="Cantidad">
+
+                            <div class="invalid-feedback">
+                                Por favor ingrese un número.
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationCustom04" class="form-label">Categoria</label>
+                            <select class="form-select" id="categoriaSelect" required>
+                                <option value="">Seleccionar</option>
+                                <option value="0">Sin categoria</option>
+                                <option value="1">Estudiante</option>
+                                <option value="2">Trainee</option>
+                                <option value="3">Junior</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <p></p>
+
+                <div id="p"
+                    class="container p-3 bg-info bg-opacity-25 border border-info border-opacity-50 border-start-0 rounded-2"
+                    style="text-align: left; color: rgb(54, 78, 126); ">
+                    <p> Total a Pagar: </p>
+
+                </div>
+                <br>
+                <br>
+                <div class="toolbar">
+
+                    <div class="container">
+                        <div class="row ">
+                            <button id="reset" type="reset" class="btn btn-primary btn-light col-md-6" value="Reset"
+                                style=" margin-bottom: 20px; background-color: rgb(114, 165, 62); color: white;">Borrar</button>
+                            <button id="Calcular" type="submit" class="btn btn-primary btn-light col-md-6"
+                                style=" margin-bottom: 20px; background-color: rgb(114, 165, 62); color: white;">Resumen</button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <br>
+    <br>
+    </div>
+
+    <header class="container-fluid header2">
+        <div class="container text-center" style=" padding-left: 10%; padding-right: 10%; color: white;">
+            <div class="row ">
+                <div class="col order-first">
+                    Preguntas Frecuentes
+                </div>
+                <div class="col">
+                    Contactenos
+                </div>
+                <div class="col">
+                    Prensa
+                </div>
+                <div class="col">
+                    Conferencias
+                </div>
+                <div class="col">
+                    Términos y condiciones
+                </div>
+                <div class="col">
+                    Privacidad
+                </div>
+                <div class="col order-last">
+                    Estudiantes
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
